@@ -1,0 +1,48 @@
+body{
+		padding:0;
+		margin:0;
+		font-family:"Baloo Da 2";
+		background-color:#f4f4f4;
+		}
+.one{
+		background-colo:green;
+		font-size:40px;
+		margin:3pc auto;
+		text-align:center;
+		font-weight:bold;
+		color:#5900cc;
+		}
+.small{
+		font-size:20px;
+		}
+.all{
+		display:flex;
+		background-colo:lightblue;
+		width:max-width;
+		margin:auto;
+		text-align:center;
+		font-size:28px;
+		justify-content:space-between;
+		}
+.two, .three, .four{
+		background-color:#5900cc;
+		padding:10px;
+		border:2px double #aeaeae;
+		color:#f4f4f4;
+		}
+.hours, .days, .seconds{
+		background-color:#aa00ff;
+		padding:10px;
+		}
+.col{
+		align-self:center;
+		}
+
+
+
+@media(min-width:768px){
+.all{
+		width:50%;
+		}		
+	
+	}
